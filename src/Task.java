@@ -2,6 +2,7 @@
 public class Task {
 	private String description = null;
 	private boolean isComplete = false;
+	public String tag = null;
 	
 	
 	public Task(String description) {
@@ -20,6 +21,12 @@ public class Task {
 	}
 	public void setDescription(String description) {
 		this.description = description;
+	}
+	public String getTag() {
+		return tag;
+	}
+	public void setTag(String tag) {
+		this.tag = tag;
 	}
 	public boolean isComplete() {
 		return isComplete;

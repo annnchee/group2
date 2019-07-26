@@ -4,8 +4,7 @@ public class Task {
 	private String description = null;
 	private boolean isComplete = false;
 	public String tag = null;
-	public String test = null;
-	public String test2 = null;
+
 	
 	public Task(String description) {
 		super();

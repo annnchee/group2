@@ -11,10 +11,11 @@ public class Task {
 		this.description = description;
 	}
 	
-	public Task(String description, boolean isComplete) {
+	public Task(String description, boolean isComplete, String tag) {
 		super();
 		this.description = description;
 		this.isComplete = isComplete;
+		this.tag = tag;
 	}
 	
 	public String getDescription() {
